@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: #EDF0F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin: 3.5% auto;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 1.5rem;
+    color: #bbbaba;
+    letter-spacing: 0.25rem;
+}
+
+i {
+    color: #B6BBC1;
+}
+
+.container {
+    width: 95%;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+}
+
+.container div {
+    max-width: 20rem;
+    margin: 1% auto;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1% 1% 2.5%;
+}
+
+.container span {
+    margin: 5% auto 2.5%;
+}
+
+.container div img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.container div div {
+    flex-direction: row;
+}
+
+.location-text {
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.container div p {
+    color: #8d8d8d;
+    margin: 2.5% auto 5%;
+    line-height: 1.5rem;
+}
+
+.container div div i {
+    margin: 0 7.5%;
+    border: 0.1rem solid #D2D3D5;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.35rem;
+    vertical-align: center;
+}
+
+.fa-facebook-f {
+    padding: 0.25rem 0.5rem !important;
+}
+
+.fa-instagram {
+    padding: 0.25rem 0.40rem !important;
+}
+
+.fa-map-marker-alt {
+    margin: 0 2.5%;
+}
