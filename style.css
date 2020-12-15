@@ -40,7 +40,6 @@ i {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-
 }
 
 .container div {
@@ -98,4 +97,22 @@ i {
 
 .fa-map-marker-alt {
     margin: 0 2.5%;
+}
+
+@media only screen and (max-width: 695px) {
+    header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        max-width: 42.5rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1365px) {
+    .container {
+        max-width: 64rem;
+    }
 }
